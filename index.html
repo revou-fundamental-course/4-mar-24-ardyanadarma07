@@ -35,8 +35,8 @@
                             <input type="text" class="form-item" id="height-input">
                         </div>
                         <div>
-                        <button type="button" id="calculate-button" onclick="calculate()">Hitung BMI</button>
-                        <button type="button">Reset</button>
+                        <button type="button" id="submit" onclick="calculate()">Hitung BMI</button>
+                        <button type="button" id="reset" onclick="reset()">Reset</button>
                         </div>
                 </section>
                 <!--Feauture Description-->
@@ -75,8 +75,8 @@
                     <section class="container-result">
                         <h4>Berat Badan Berlebih</h4>
                         <h1 id="result-bmi">0</h1>
-                        <h4>Anda Memiliki Berat Badan Berlebih</h4>
-                        <button type="button">Download Hasil BMI</button>
+                        <h4 id="comment">Anda Memiliki Berat Badan Berlebih</h4>
+                        <button type="button" id="download-bmi" onclick="download()">Download Hasil BMI</button>
                     </section>
                     <section>
                         <header style="text-align: justify;">
